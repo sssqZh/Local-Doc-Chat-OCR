@@ -1,0 +1,75 @@
+# -------------------
+# Python 核心忽略项
+# -------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -------------------
+# 环境变量 & 密钥 
+# -------------------
+.env
+.env.local
+.env.*.local
+# 注意：我们要允许上传 .env.example 作为模板，所以不屏蔽它
+
+# -------------------
+# 本地数据库 & 数据
+# -------------------
+# ChromaDB 本地持久化文件夹
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------
+# 临时上传/生成的数据
+# -------------------
+uploads/
+data/
+# 忽略所有数据文件，防止隐私泄露
+*.pdf
+*.txt
+# 忽略 markdown 文件，但允许 README.md
+*.md
+!README.md
+!README_CN.md
+
+# -------------------
+# IDE &编辑器配置
+# -------------------
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# -------------------
+# Streamlit
+# -------------------
+.streamlit/
+
+# -------------------
+# 日志
+# -------------------
+*.log
+logs/
