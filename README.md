@@ -7,7 +7,7 @@
 
 [**English**](README.md) | [**中文说明**](README_CN.md)
 
-![Demonstration](https://github.com/sssqZh/Local-Doc-Chat-OCR/issues/1#issue-3703247939)
+![Demonstration]([png2pdf.pdf](https://github.com/user-attachments/files/24014396/png2pdf.pdf))
 
 A local **RAG (Retrieval-Augmented Generation)** Q&A system built with **Streamlit**. 
 
