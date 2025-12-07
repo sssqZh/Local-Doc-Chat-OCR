@@ -7,6 +7,8 @@
 
 [**English**](README.md) | [**中文说明**](README_CN.md)
 
+<img width="100%" alt="Image" src="https://github.com/user-attachments/assets/4ec13e1a-8b76-40b2-beea-12d2ee53771a" />
+
 这是一个基于 **Streamlit** 构建的本地 RAG（检索增强生成）问答系统。它不仅支持普通的文本和文档，还集成了 **OCR (光学字符识别)** 技术，能够处理**扫描版 PDF** 和图片型文档。
 
 后端模型采用高性价比的 **DeepSeek V3**，配合本地运行的 **Ollama** 进行隐私安全的向量嵌入。
