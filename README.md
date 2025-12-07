@@ -119,6 +119,14 @@ The browser will automatically open at `http://localhost:8501`.
 2.  **DeepSeek Quota**: Ensure your API Key has sufficient balance.
 3.  **Reset Data**: To clear the knowledge base, click the "Clear Knowledge Base" button in the sidebar or manually delete the local `chroma_db` folder.
 
+## 🙌 Acknowledgments
+
+Special thanks to the following tools that made this project possible:
+
+- **[Cursor](https://cursor.sh/)**: For the incredible AI-assisted coding experience.
+- **[Google Gemini](https://deepmind.google/technologies/gemini/)**: For providing architectural advice and debugging help.
+- **[DeepSeek](https://www.deepseek.com/)**: For the powerful reasoning API.
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
