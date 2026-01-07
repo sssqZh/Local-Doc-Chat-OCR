@@ -7,6 +7,8 @@
 
 [**English**](README.md) | [**中文说明**](README_CN.md)
 
+<img width="100%" alt="Image" src="https://github.com/user-attachments/assets/4ec13e1a-8b76-40b2-beea-12d2ee53771a" />
+
 A local **RAG (Retrieval-Augmented Generation)** Q&A system built with **Streamlit**. 
 
 Unlike traditional RAG tools, this project integrates **OCR (Optical Character Recognition)** capabilities, allowing you to chat not only with text documents but also with **scanned PDFs** and **images**.
@@ -116,6 +118,14 @@ The browser will automatically open at `http://localhost:8501`.
 1.  **OCR Speed**: If you upload a scanned PDF, the system performs page-by-page recognition. Depending on your CPU, this may take longer than processing standard text. Please watch the terminal for progress.
 2.  **DeepSeek Quota**: Ensure your API Key has sufficient balance.
 3.  **Reset Data**: To clear the knowledge base, click the "Clear Knowledge Base" button in the sidebar or manually delete the local `chroma_db` folder.
+
+## 🙌 Acknowledgments
+
+Special thanks to the following tools that made this project possible:
+
+- **[Cursor](https://cursor.sh/)**: For the incredible AI-assisted coding experience.
+- **[Google Gemini](https://deepmind.google/technologies/gemini/)**: For providing architectural advice and debugging help.
+- **[DeepSeek](https://www.deepseek.com/)**: For the powerful reasoning API.
 
 ## 📄 License
 

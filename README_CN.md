@@ -7,6 +7,8 @@
 
 [**English**](README.md) | [**中文说明**](README_CN.md)
 
+<img width="100%" alt="Image" src="https://github.com/user-attachments/assets/4ec13e1a-8b76-40b2-beea-12d2ee53771a" />
+
 这是一个基于 **Streamlit** 构建的本地 RAG（检索增强生成）问答系统。它不仅支持普通的文本和文档，还集成了 **OCR (光学字符识别)** 技术，能够处理**扫描版 PDF** 和图片型文档。
 
 后端模型采用高性价比的 **DeepSeek V3**，配合本地运行的 **Ollama** 进行隐私安全的向量嵌入。
@@ -113,6 +115,14 @@ streamlit run app.py
 1.  **OCR 识别速度**：如果你上传的是扫描版 PDF，系统会自动进行逐页识别。取决于你的电脑性能，这可能比普通文档处理慢一些，请留意终端的进度提示。
 2.  **DeepSeek 额度**：请确保你的 API Key 有充足的余额。
 3.  **数据重置**：如果想清空知识库，只需点击侧边栏的“清空知识库”按钮，或者手动删除本地的 `chroma_db` 文件夹。
+
+## 🙌 致谢
+
+特别感谢以下工具对本项目开发的巨大帮助：
+
+- **[Cursor](https://cursor.sh/)**: 提供了极致的 AI 辅助编程体验，极大地加速了开发进程。
+- **[Google Gemini](https://deepmind.google/technologies/gemini/)**: 在架构设计思路与代码调试方面提供了宝贵的建议。
+- **[DeepSeek](https://www.deepseek.com/)**: 提供了强大的推理 API 支持。
 
 ## 📄 许可证 (License)
 
